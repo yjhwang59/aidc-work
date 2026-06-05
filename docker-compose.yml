@@ -1,0 +1,10 @@
+services:
+  web:
+    build:
+      context: .
+      args:
+        APP_VERSION: ${APP_VERSION:-0.1.0}
+    image: ghcr.io/yjhwang59/aidc-work:local
+    ports:
+      - "3163:80"
+    restart: unless-stopped

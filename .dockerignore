@@ -1,0 +1,12 @@
+.git
+.github
+.next
+out
+node_modules
+npm-debug.log*
+.env*.local
+*.md
+!README.md
+docs
+content
+.DS_Store
